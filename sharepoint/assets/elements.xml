@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ToHeaderMenu"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="34688738-e9e1-4f59-93de-792396acbf2f"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

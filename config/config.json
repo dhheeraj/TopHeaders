@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "to-header-menu-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/toHeaderMenu/ToHeaderMenuApplicationCustomizer.js",
+          "manifest": "./src/extensions/toHeaderMenu/ToHeaderMenuApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ToHeaderMenuApplicationCustomizerStrings": "lib/extensions/toHeaderMenu/loc/{locale}.js"
+  }
+}
